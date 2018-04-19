@@ -6,7 +6,7 @@ main {
 }
 
 body {
-    width: 90%;
+    width: ;
     margin: 0 auto;
 }
 
@@ -23,7 +23,6 @@ body {
     color: white;
     text-align: right;
     max-height: 70px;
-    font-family: serif;
 }
 
 .nav li {
@@ -48,7 +47,7 @@ body {
 
 a:hover {
     text-decoration: none;
-    color: #6cf;
+    color: #00dd99;
 }
 
 a {
@@ -343,7 +342,7 @@ footer img{
     padding-top: 20px;
 }
 
-/*Price Chart CSS*/
+/*****#### Price Chart CSS ####*****/
 
 .wrapper, li{
     text-align: left;
@@ -472,4 +471,59 @@ div[class^="plan"]{
 .priceDets h2 {
     font-size: 30px;
 }
+
+/* Tutorial Page */
+
+.tutorialVideo {
+    border: 5px;
+    padding: 5px;
+    background-color: #62D8BD;
+    width: 100%;
+}
+
+#videoWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow: auto;
+    
+}
+
+@media (min-width:768px){
+        #videoWrapper{
+            grid-template-columns: 1fr 1fr;
+        }
+        .genre-btn{
+            width: 185px;
+            height: 235px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
